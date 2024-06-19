@@ -1,1 +1,74 @@
-/*# sourceMappingURL=main.css.map */
+h1 {
+  font-family: "New Spirit";
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100px;
+}
+
+h2 {
+  font-family: "New Spirit";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px;
+}
+
+h3 {
+  font-family: "Indivisible";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+h4 {
+  font-family: "Indivisible";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+h5 {
+  font-family: "Indivisible";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.paragraph {
+  font-family: Indivisible;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.buttonFont {
+  font-family: Indivisible;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.logotype {
+  font-family: "New Spirit";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+/* changement de format*//*# sourceMappingURL=main.css.map */
