@@ -1,0 +1,42 @@
+.header{
+    padding: 25px 100px 50px 100px;
+    background-image: url("../../../dist/images/backgroundHeader.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header__navigationBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $white;
+}
+.header__navigationBar a {
+    color: white;
+    text-decoration: none;
+}
+.header__navigationBar__navigation{
+    display:flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.header__hero{
+    color: $white;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header__hero__button{
+    width: fit-content;
+    text-align: center;
+}
+.header__arrow{
+    text-align: center;
+}

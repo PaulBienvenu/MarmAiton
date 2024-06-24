@@ -1,0 +1,26 @@
+.sectionCheckbox{
+    background-color: $secondaryTan;
+    display: flex;
+
+}
+.sectionCheckbox__left{
+    color: $primaryGreen;
+    padding: 100px;
+    width: calc(50% - 200px);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sectionCheckbox__right{
+width: 50%;
+background-image: url("../../../dist/images/recipeN1.webp");
+background-repeat: no-repeat;
+background-size:cover;
+background-position: 0%;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
