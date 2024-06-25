@@ -10,121 +10,140 @@ body {
 /* changement de format*/
 h1 {
   font-family: "New Spirit";
-  font-size: 120px;
+  font-size: 12rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 100px;
+  line-height: 10rem;
   margin: 0;
 }
 
 h2 {
   font-family: "New Spirit";
-  font-size: 80px;
+  font-size: 8rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 100px;
+  line-height: 10rem;
   margin: 0;
 }
 
 h3 {
   font-family: "Indivisible";
-  font-size: 40px;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px;
+  line-height: 4.8rem;
   margin: 0;
 }
 
 h4 {
   font-family: "Indivisible";
-  font-size: 30px;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 30px;
+  line-height: 3rem;
   margin: 0;
 }
 
 h5 {
   font-family: "Indivisible";
-  font-size: 16px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px;
+  line-height: 2.5rem;
   margin: 0;
 }
 
 .paragraph {
   font-family: Indivisible;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px;
+  line-height: 2.5rem;
   margin: 0;
 }
 
 .paragraphAccent {
   font-family: Indivisible;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 25px;
+  line-height: 2.5rem;
   margin: 0;
 }
 
 .buttonFont {
   font-family: Indivisible;
-  font-size: 20px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 2.4rem;
   margin: 0;
 }
 
 .logotype {
   font-family: "New Spirit";
-  font-size: 30px;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 38px;
+  line-height: 3.8rem;
   margin: 0;
 }
 
 .buttonGreen {
   text-decoration: none;
   background: #4A5928;
-  border: 2px solid #4A5928;
-  padding: 15px 20px;
-  border-radius: 5px;
+  border: 0.2rem solid #4A5928;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
   transition: background 0.5s ease, border 0.5s ease, color 0.5s ease;
   color: #F8E6C6;
 }
 
 .buttonGreen:hover {
   background: #F8E6C6;
-  border: 2px solid #4A5928;
+  border: 0.2rem solid #4A5928;
   color: #4A5928;
-  padding: 15px 20px;
-  border-radius: 5px;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
 }
 
 .buttonYellow {
   text-decoration: none;
   background: #F2A341;
-  border: 2px solid #F2A341;
-  padding: 15px 20px;
-  border-radius: 5px;
+  border: 0.2rem solid #F2A341;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
   transition: background 0.5s ease, border 0.5s ease, color 0.5s ease;
   color: #FFFFFF;
 }
 
 .buttonYellow:hover {
   background: #FFFFFF;
-  border: 2px solid #F2A341;
+  border: 0.2rem solid #F2A341;
   color: #F2A341;
-  padding: 15px 20px;
-  border-radius: 5px;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
 }
 
+@media screen and (max-width: 1100px) {
+  h1 {
+    font-size: 10rem;
+    line-height: 8rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .phoneHide {
+    display: none;
+  }
+  h1 {
+    font-size: 7rem;
+    line-height: 8rem;
+  }
+  .buttonFont {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
 .header {
   padding: 25px 100px 50px 100px;
   background-image: url("../../../dist/images/backgroundHeader.webp");
@@ -173,6 +192,17 @@ h5 {
   text-align: center;
 }
 
+@media screen and (max-width: 1100px) {
+  .header {
+    padding: 25px 40px 50px 40px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .header {
+    padding: 25px 25px 50px 25px;
+    height: 800px;
+  }
+}
 .sectionCheckbox {
   background-color: #FFF5E3;
   display: flex;
@@ -199,4 +229,20 @@ h5 {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .sectionCheckbox__left {
+    padding: 100px 40px;
+    width: calc(80% - 80px);
+  }
+  .sectionCheckbox__right {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .sectionCheckbox__left {
+    padding: 100px 40px;
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
