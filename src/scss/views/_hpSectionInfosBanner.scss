@@ -1,0 +1,45 @@
+.sectionInfosBanner{
+    background: $primaryGreen;
+    color: $secondaryTan;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 50px;
+    text-align: center;
+}
+
+.sectionInfosBanner__content{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sectionInfosBanner__content > div{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    width: 600px;
+
+}
+
+.sectionInfosBanner__content p{
+    padding-top: 25px;
+}
+
+
+@media screen and (max-width:1100px) {
+    .sectionInfosBanner{
+        padding: 100px 40px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .sectionInfosBanner{
+        padding: 100px 25px;
+    }
+    .sectionInfosBanner__content > div{
+        flex-direction: column;
+        width: 100%;
+    }
+}

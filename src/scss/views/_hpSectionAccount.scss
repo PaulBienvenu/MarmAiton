@@ -1,0 +1,65 @@
+.sectionAccount{
+    color: $primaryGreen;
+    background: $primaryTan;
+    display: flex;
+    gap: 50px;
+    padding: 100px;
+}
+.sectionAccount__content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.sectionAccount__content__buttons{
+    display: flex;
+    gap: 50px;
+}
+.sectionAccount__content__pictoText{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.sectionAccount__picture{
+    width: 600px;
+    background-image: url("../../../dist/images/peopleCooking.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 10px;
+}
+
+.sectionAccount__content__pictoText img{
+    width: 80px;
+    height: 80px;
+}
+.sectionAccount__content__pictoText{
+    width: 720px ;
+}
+
+@media screen and (max-width:1100px) {
+    .sectionAccount{
+        padding: 100px 40px;
+        flex-direction: column;
+    }
+    .sectionAccount__picture{
+        height: 250px;
+        width: 100%;
+        background-position-y: 20%;
+    }
+    .sectionAccount__content__pictoText{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .sectionAccount{
+        padding: 100px 25px;
+    }
+    .sectionAccount__content{
+        align-items: center;
+    }
+    .sectionAccount__content__pictoText{
+        flex-direction: column;
+        text-align: center;
+    }
+}

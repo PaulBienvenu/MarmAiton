@@ -107,6 +107,24 @@ h5 {
   border-radius: 0.5rem;
 }
 
+.buttonLightGreen {
+  text-decoration: none;
+  background: #84955E;
+  border: 0.2rem solid #84955E;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  transition: background 0.5s ease, border 0.5s ease, color 0.5s ease;
+  color: #F8E6C6;
+}
+
+.buttonLightGreen:hover {
+  background: #F8E6C6;
+  border: 0.2rem solid #84955E;
+  color: #84955E;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+}
+
 .buttonYellow {
   text-decoration: none;
   background: #F2A341;
@@ -130,6 +148,10 @@ h5 {
     font-size: 10rem;
     line-height: 8rem;
   }
+  h2 {
+    font-size: 6rem;
+    line-height: 8rem;
+  }
 }
 @media screen and (max-width: 640px) {
   .phoneHide {
@@ -138,6 +160,14 @@ h5 {
   h1 {
     font-size: 7rem;
     line-height: 8rem;
+  }
+  h2 {
+    font-size: 5rem;
+    line-height: 6.5rem;
+  }
+  h3 {
+    font-size: 2.8rem;
+    line-height: normal;
   }
   .buttonFont {
     font-size: 1.5rem;
@@ -242,7 +272,177 @@ h5 {
 }
 @media screen and (max-width: 640px) {
   .sectionCheckbox__left {
-    padding: 100px 40px;
+    padding: 100px 25px;
     width: 100%;
+  }
+}
+.sectionInfosBanner {
+  background: #4A5928;
+  color: #FFF5E3;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+
+.sectionInfosBanner__content {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sectionInfosBanner__content > div {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  width: 600px;
+}
+
+.sectionInfosBanner__content p {
+  padding-top: 25px;
+}
+
+@media screen and (max-width: 1100px) {
+  .sectionInfosBanner {
+    padding: 100px 40px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .sectionInfosBanner {
+    padding: 100px 25px;
+  }
+  .sectionInfosBanner__content > div {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.sectionAccount {
+  color: #4A5928;
+  background: #F8E6C6;
+  display: flex;
+  gap: 50px;
+  padding: 100px;
+}
+
+.sectionAccount__content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.sectionAccount__content__buttons {
+  display: flex;
+  gap: 50px;
+}
+
+.sectionAccount__content__pictoText {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.sectionAccount__picture {
+  width: 600px;
+  background-image: url("../../../dist/images/peopleCooking.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  border-radius: 10px;
+}
+
+.sectionAccount__content__pictoText img {
+  width: 80px;
+  height: 80px;
+}
+
+.sectionAccount__content__pictoText {
+  width: 720px;
+}
+
+@media screen and (max-width: 1100px) {
+  .sectionAccount {
+    padding: 100px 40px;
+    flex-direction: column;
+  }
+  .sectionAccount__picture {
+    height: 250px;
+    width: 100%;
+    background-position-y: 20%;
+  }
+  .sectionAccount__content__pictoText {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .sectionAccount {
+    padding: 100px 25px;
+  }
+  .sectionAccount__content {
+    align-items: center;
+  }
+  .sectionAccount__content__pictoText {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.sectionArguments {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  background: #F2A341;
+}
+
+.sectionArguments h2 {
+  color: #FFFFFF;
+}
+
+.sectionArguments__Content {
+  display: flex;
+  gap: 25px;
+}
+
+.sectionArguments__Content img {
+  width: 80px;
+  height: 80px;
+}
+
+.sectionArguments__Content h4 {
+  color: #F2A341;
+}
+
+.sectionArguments__Content div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 25px;
+  width: 50%;
+}
+
+@media screen and (max-width: 1100px) {
+  .sectionArguments {
+    padding: 100px 40px;
+  }
+  .sectionArguments__Content {
+    flex-direction: column;
+  }
+  .sectionArguments__Content div {
+    width: 430px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .sectionArguments {
+    padding: 100px 25px;
+  }
+  .sectionArguments__Content div {
+    width: 340px;
   }
 }/*# sourceMappingURL=main.css.map */
