@@ -40,8 +40,9 @@ width: 50%;
     flex-direction: column;
 }
 .sectionArguments__Content div{
-    width: 430px;
+    width: calc(100% - 50px)
 }
+
 }
 
 @media screen and (max-width:640px) {
@@ -49,6 +50,6 @@ width: 50%;
         padding: 100px 25px;
     }
     .sectionArguments__Content div{
-        width: 340px;
+        width: calc(100% - 50px)
     }
 }
