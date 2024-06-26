@@ -445,4 +445,35 @@ h5 {
   .sectionArguments__Content div {
     width: 340px;
   }
+}
+.sectionCta {
+  display: flex;
+  justify-content: center;
+  background-image: url("../../../dist/images/backgroundCta.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0%;
+}
+
+.sectionCta__content {
+  text-align: center;
+  padding: 100px;
+  max-width: 850px;
+  color: #FFFFFF;
+}
+
+.sectionCta h2 {
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1100px) {
+  .sectionCta__content {
+    max-width: 600px;
+    padding: 100px 40px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .sectionCta__content {
+    padding: 100px 25px;
+  }
 }/*# sourceMappingURL=main.css.map */
