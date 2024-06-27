@@ -1,0 +1,63 @@
+.headerRecipe{
+    height: 2000px;
+    background-color: aqua;
+}
+/*a retirer*/
+.chat{
+    position: fixed;
+    bottom: 0;
+    background: $secondaryTan;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 100px 50px 100px;
+    width: 100%;
+    border-top: solid 2px;
+    border-color: $primaryGreen;
+}
+.chat__suggestions{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.chat__searchAndMic{
+    display: flex;
+    width: calc(100% - 200px);
+    gap: 25px;
+}
+.chat__searchAndMic__searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: $primaryTan;
+    border-radius: 5px;
+    width: fill;
+    padding-left: 25px;
+    color: $secondaryGreen;
+}
+@media screen and (max-width:1100px) {
+    .chat{
+        padding: 25px 40px 50px 40px;
+    }
+    .chat__searchAndMic{
+        width: calc(100% - 80px);
+    }
+}
+@media screen and (max-width:870px) {
+.chat__suggestions span{
+    display: none
+}
+}
+@media screen and (max-width:860px) {
+.hide {
+    display: none
+}
+}
+@media screen and (max-width:640px) {
+    .chat{
+        padding: 25px 25px 50px 25px;
+    }
+    .chat__searchAndMic{
+        width: calc(100% - 50px);
+    }
+}
