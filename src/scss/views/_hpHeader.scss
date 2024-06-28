@@ -41,7 +41,9 @@
 .header__arrow{
     text-align: center;
 }
-
+.scrollButton{
+    cursor: pointer;
+}
 
 @media screen and (max-width:1100px) {
     .header{
