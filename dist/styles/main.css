@@ -630,7 +630,17 @@ h5 {
   width: -webkit-fill-available;
   width: -moz-available;
   width: fill;
-  padding-left: 25px;
+  padding: 0px 12.5px;
+  color: #4A5928;
+  border: 0;
+  outline: none;
+}
+
+input::-moz-placeholder {
+  color: #84955E;
+}
+
+input::placeholder {
   color: #84955E;
 }
 
